@@ -104,7 +104,10 @@ def callback():
     real_oauth_token = access_token[b'oauth_token'].decode('utf-8')
     real_oauth_token_secret = access_token[b'oauth_token_secret'].decode(
         'utf-8')
-
+    #Used to show the Keys LOL in terminal, Im a noob so I need them for a simple bot ok ty
+    print(real_oauth_token)
+    print(real_oauth_token_secret)
+    
     # Call api.twitter.com/1.1/users/show.json?user_id={user_id}
     real_token = oauth.Token(real_oauth_token, real_oauth_token_secret)
     real_client = oauth.Client(consumer, real_token)
