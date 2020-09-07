@@ -3,7 +3,7 @@
 A simple Python + Flask web app that demonstrates the flow of obtaining a [Twitter user OAuth access token](https://developer.twitter.com/en/docs/basics/authentication/overview/oauth).
 
 ## Setup
-
+#Doesn't work on windows unless using Linux Subsystem
 1. Obtain consumer key and secret from the Twitter Developer portal. The app should be configured to enable Sign in with Twitter. See `twauth-web.py` for more details, but you can either:
    1. add these values to a `config.cfg` file (local deployment); or
    2. set environment variables `TWAUTH_APP_CONSUMER_KEY` and `TWAUTH_APP_CONSUMER_SECRET` (cloud deployment)
