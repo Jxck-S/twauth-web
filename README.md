@@ -2,7 +2,7 @@
 
 A simple Python + Flask web app that demonstrates the flow of obtaining a [Twitter user OAuth access token](https://developer.twitter.com/en/docs/basics/authentication/overview/oauth).
 Modified to just return your user tokens for the app for simple programs, like https://github.com/Jxck-S/plane-notify
-###Doesn't work on windows unless using Linux Subsystem
+### Doesn't work on windows unless using Linux Subsystem
 ## Setup
 1. Obtain consumer key and secret from the Twitter Developer portal. The app should be configured to enable Sign in with Twitter. See `twauth-web.py` for more details, but you can either:
    1. add these values to a `config.cfg` file (local deployment); or
